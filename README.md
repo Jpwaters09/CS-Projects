@@ -13,7 +13,7 @@
 
 <div align="center">
   <h3>C# Projects:</h3>
-  <a href="https://www.patreon.com/jpwaters09"><img src="https://img.shields.io/badge/Click%20Here%20To%20Get%20Access%20To%20An%20Upcoming%20Project-Click%20Here%20To%20Get%20Access%20To%20An%20Upcoming%20Project?logo=patreon&logoColor=white&labelColor=000000&color=grey" alt="Click Here To Get Access To An Upcoming Project" height="30"/></a>
+  <a href="https://www.patreon.com/posts/early-access-in-114065643?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"><img src="https://img.shields.io/badge/Click%20Here%20To%20Get%20Access%20To%20An%20Upcoming%20Project-Click%20Here%20To%20Get%20Access%20To%20An%20Upcoming%20Project?logo=patreon&logoColor=white&labelColor=000000&color=grey" alt="Click Here To Get Access To An Upcoming Project" height="30"/></a>
 </div>
 
 ##
