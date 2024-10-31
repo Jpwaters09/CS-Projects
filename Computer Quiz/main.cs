@@ -1,4 +1,4 @@
-﻿////////////////////////////////////////////////
+////////////////////////////////////////////////
 // Computer Quiz                              //
 // Language: C#                               //
 // Author: Jacob Waters                       //
@@ -25,7 +25,7 @@ namespace ComputerQuiz
             Console.ReadLine();
             Console.Clear();
 
-            double score = 0;
+            int score = 0;
             string answer;
 
             Console.WriteLine("Question 1!");
@@ -41,7 +41,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Correct!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -51,7 +51,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Incorrect!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -69,7 +69,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Correct!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -79,7 +79,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Incorrect!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -97,7 +97,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Correct!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -107,7 +107,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Incorrect!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -125,7 +125,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Correct!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -135,7 +135,7 @@ namespace ComputerQuiz
                 Console.Clear();
                 Console.WriteLine("Incorrect!");
                 Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct So Far!");
-                Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct So Far!");
+                Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct So Far!");
                 Thread.Sleep(2000);
                 Console.Clear();
             }
@@ -145,7 +145,7 @@ namespace ComputerQuiz
 
             Console.WriteLine($"\nYou Have Got {score}/4 Questions Correct!");
             Thread.Sleep(1000);
-            Console.WriteLine($"\nYou Have Got {(Convert.ToDouble(score) / 4) * 100}% Correct!");
+            Console.WriteLine($"\nYou Have Got {(((double)score) / 4) * 100}% Correct!");
             Thread.Sleep(2000);
 
             if (score == 4)
