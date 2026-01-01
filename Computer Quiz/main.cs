@@ -3,7 +3,7 @@
 // Language: C#                               //
 // Author: Jacob Waters                       //
 // Github: github.com/jpwaters09              //
-// Copyright (c) 2025 Jacob Waters            //
+// Copyright (c) 2026 Jacob Waters            //
 // Contact me: jpwaters09.business@gmail.com  //
 ////////////////////////////////////////////////
 
@@ -170,3 +170,4 @@ namespace ComputerQuiz
         }
     }
 }
+
